@@ -1,0 +1,143 @@
+{% extends "base-home.html" %}
+
+{% block title %}Inicio - COPPSA Soluciones{% endblock %}
+
+{% block content %}
+
+<section id="servicios" class="py-24 bg-white">
+    <div class="container mx-auto px-6 text-center">
+        
+        <h2 class="text-4xl font-bold text-brand-secondary mb-16 wow animate__animated animate__fadeInUp">
+            Nuestras Soluciones
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12">
+            
+            <div id="servicio-excavacion" class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
+                <div class="bg-gray-50 rounded-lg shadow-2xl overflow-hidden h-full flex flex-col group transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.pexels.com/photos/159304/construction-excavator-digger-159304.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+                         alt="Excavación de Pozo" class="w-full h-56 object-cover">
+                    <div class="p-8 flex-grow">
+                        <h3 class="text-2xl font-semibold text-brand-secondary mb-3">
+                            Excavación de Pozos
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Perforación y excavación precisa para pozos de absorción, cisternas y más.
+                        </p>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="#contacto" class="bg-gradient-to-br from-blue-300 to-brand-secondary text-white font-bold py-2 px-6 rounded-full  group-hover:px-7 group-hover:py-3 duration-300">
+                            Cotizar
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="servicio-fosas" class="wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                <div class="bg-gray-50 rounded-lg shadow-2xl overflow-hidden h-full flex flex-col group transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.pexels.com/photos/8009088/pexels-photo-8009088.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+                         alt="Limpieza de Fosa" class="w-full h-56 object-cover">
+                    <div class="p-8 flex-grow">
+                        <h3 class="text-2xl font-semibold text-brand-secondary mb-3">
+                            Limpieza de Fosas
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Desazolve profesional de fosas sépticas y trampas de grasa con equipo Vactor.
+                        </p>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="#contacto" class="bg-gradient-to-br from-blue-300 to-brand-secondary text-white font-bold py-2 px-6 rounded-full  group-hover:px-7 group-hover:py-3 duration-300">
+                            Cotizar
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="servicio-banos" class="wow animate__animated animate__fadeInRight" data-wow-delay="0.3s">
+                <div class="bg-gray-50 rounded-lg shadow-2xl overflow-hidden h-full flex flex-col group transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+                         alt="Renta de Baños Portátiles" class="w-full h-56 object-cover">
+                    <div class="p-8 flex-grow">
+                        <h3 class="text-2xl font-semibold text-brand-secondary mb-3">
+                            Renta de Baños Portátiles
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Soluciones higiénicas y de calidad para eventos, obras y proyectos temporales.
+                        </p>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="#contacto" class="bg-gradient-to-br from-blue-300 to-brand-secondary text-white font-bold py-2 px-6 rounded-full  group-hover:px-7 group-hover:py-3 duration-300">
+                            Cotizar
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-brand-accent text-white">
+  <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 wow animate__animated animate__fadeInDown">
+          Expertos en Excavación y Saneamiento
+      </h1>
+      <p class="text-xl md:text-2xl mb-10 text-gray-200 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+          Tu proyecto es nuestra prioridad. Soluciones eficientes en pozos, fosas y baños.
+      </p>
+      <a href="#servicios" 
+         class="bg-gradient-to-br from-brand-primary to-yellow-700 text-gray-900 font-bold py-3 px-10 rounded-full text-lg hover:bg-opacity-90 transition-all duration-300 shadow-xl wow animate__animated animate__pulse" data-wow-delay="0.4s">
+          Ver Servicios
+      </a>
+  </div>
+</section>
+
+
+<section id="nosotros" class="py-24 bg-gray-100">
+    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <div class="wow animate__animated animate__fadeInLeft">
+            <div class="bg-brand-accent w-full h-96 rounded-xl shadow-2xl flex items-center justify-center overflow-hidden">
+                <img src="https://images.pexels.com/photos/221902/pexels-photo-221902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                     alt="Maquinaria de COPPSA" class="w-full h-full object-cover">
+            </div>
+        </div>
+        
+        <div class="text-left wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+            <h2 class="text-3xl font-bold text-brand-secondary mb-6">
+                Más de 20 Años de Experiencia
+            </h2>
+            <p class="text-lg text-gray-700 mb-4">
+                COPPSA es una empresa familiar dedicada a brindar soluciones de saneamiento y excavación con la máxima seguridad y eficiencia.
+            </p>
+            <p class="text-gray-600 mb-8">
+                Nuestro compromiso es con la calidad y la respuesta inmediata. Entendemos la urgencia de tu proyecto y contamos con el equipo y el personal capacitado para cumplir tus expectativas.
+            </p>
+            <a href="#contacto" class_s="bg-brand-primary text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-all duration-300 shadow-lg">
+                Contáctanos
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="py-24 text-center bg-brand-accent text-white">
+    <div class="container mx-auto px-6 wow animate__animated animate__zoomIn">
+        <h2 class="text-4xl font-bold mb-6">
+            ¿Listo para comenzar tu proyecto?
+        </h2>
+        <p class="text-xl text-gray-200 mb-10">
+            Llámanos o envíanos un mensaje. Estamos listos para ayudarte.
+        </p>
+        
+        <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+            <a href="tel:5512345678" class="bg-gradient-to-br from-brand-primary to-yellow-700 text-gray-900 font-bold py-4 px-10 rounded-full text-lg hover:bg-opacity-90 transition-colors duration-300 shadow-lg">
+                📞 Llamar Ahora: (55) 1234-5678
+            </a>
+            <a href="mailto:contacto@coppsa.com" class="font-semibold text-lg hover:underline text-gray-200">
+                ✉️ O enviar un email: contacto@coppsa.com
+            </a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
