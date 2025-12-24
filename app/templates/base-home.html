@@ -81,13 +81,28 @@
     <footer class="bg-gray-900 text-gray-400 mt-24">
         <div class="container mx-auto px-6 py-10 text-center">
             <p>&copy; {% block year %}2025{% endblock %} COPPSA S.A. de C.V. </p>
-
+            <p>📍 Calle 54 #532-A x 57 y 59, Fracc. Reparto Granjas, Mérida, Yuc.</p>
+            <a href="tel:9991419214" class="text-gray-200 font-bold py-4 px-10 hover:underline">
+                📞 Llamar Ahora: 999 141 9214
+            </a><br>
+            <a href="tel:9991076467" class="text-gray-200 font-bold py-4 px-10 hover:underline">
+                📞 Llamar Ahora: 999 107 6467
+            </a><br>
+            <a href="mailto:coppsamantenimientos@outlook.com" class="font-semibold text-lg hover:underline text-gray-200">
+                ✉️ Enviar un email: coppsamantenimientos@outlook.com
+            </a>
         </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wowjs/1.1.2/wow.min.js"></script>
     <script>
-        new WOW().init();
+        new WOW({
+            boxClass: 'wow',
+            animateClass: 'animate__animated',
+            offset: 100,
+            mobile: true,
+            live: true
+        }).init();
     </script>
 
     <script>
